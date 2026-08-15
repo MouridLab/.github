@@ -1,0 +1,22 @@
+name: Proposition
+description: Proposer une amélioration ou une initiative
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Besoin
+      description: Quel besoin concret cette proposition résout-elle ?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposition
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources, droits et risques

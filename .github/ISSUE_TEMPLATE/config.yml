@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Sécurité
+    url: https://github.com/orgs/MouridLab/repositories
+    about: Choisissez le dépôt concerné puis ouvrez un avis de sécurité privé.
