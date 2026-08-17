@@ -1,68 +1,60 @@
 <div align="center">
 
-<img src="../assets/mouridlab-horizontal.png" alt="MouridLab" width="620">
+<img src="../assets/mouridlab-horizontal.png" alt="MouridLab — Savoir, Agir, Servir" width="680">
 
-### العِلْمُ · العَمَلُ · الخِدْمَةُ
+### Le numérique au service du patrimoine intellectuel mouride
 
-**SAVOIR · AGIR · SERVIR**
+Nous construisons des outils ouverts pour **préserver**, **comprendre** et **transmettre**.
 
-<br>
-
-**Français** · [Wolof](README.wo.md) · [English](README.en.md)
+[Français](README.md) · [Wolof](README.wo.md) · [English](README.en.md)
 
 </div>
 
 ---
 
-## Le savoir, accessible et vérifiable
+## Notre mission
 
-MouridLab est une communauté open source qui développe des ressources et des outils numériques consacrés au **patrimoine intellectuel mouride**.
+MouridLab est une communauté open source qui relie patrimoine, recherche et technologie. Nous transformons des documents dispersés en ressources structurées, consultables et toujours reliées à leurs sources.
 
-Notre ambition : préserver les œuvres, mieux les documenter et permettre à chacun de les étudier à partir de sources clairement identifiées.
+Notre cap est simple : rendre les œuvres plus accessibles sans sacrifier leur contexte, leur traçabilité ni la validation humaine.
 
 ## Ce que nous construisons
 
-| | Projet | Finalité | Statut |
-| --- | --- | --- | --- |
-| 📚 | **Mourid Library** | Réunir œuvres, éditions, scans, transcriptions et traductions dans une bibliothèque structurée. | En développement |
-| 🔎 | **Mourid Search** | Explorer le corpus en arabe, wolof et français par recherche textuelle et sémantique. | En préparation |
-| 🧠 | **Mourid RAG** | Produire des réponses qui renvoient aux passages, aux œuvres et aux éditions utilisés. | Expérimental |
-| 🔤 | **Mourid NLP** | Créer des outils pour l'OCR, la translittération, l'alignement et le traitement des langues du corpus. | À venir |
+|        | Projet                                                                | Rôle                                                                        |
+| :----: | --------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **01** | [**Xassida Search**](https://github.com/MouridLab/xassida-search)     | Bibliothèque multilingue, lecture, recherche sourcée et workflow éditorial. |
+| **02** | [**Xassida RAG**](https://github.com/MouridLab/xassida-rag)           | Moteur documentaire local qui répond à partir du corpus validé.             |
+| **03** | [**MouridLab.org**](https://github.com/MouridLab/mouridlab.github.io) | Site public de l’organisation, de ses initiatives et de sa communauté.      |
 
-## Une technologie au service des sources
-
-Chaque ressource doit pouvoir être replacée dans son contexte :
+## Du manuscrit à la voix
 
 ```text
-Œuvre → Édition → Document → Transcription → Traduction → Données → Outils
+SOURCES  ──▶  CORPUS VALIDÉ  ──▶  RECHERCHE
+                    │
+                    └──▶  RÉCITATIONS  ──▶  TRANSMISSION
 ```
 
-Nos engagements :
+Notre ambition est aussi audiovisuelle : documenter les récitateurs et les kourels, relier leurs enregistrements aux textes vérifiés, puis créer des expériences audio et vidéo synchronisées.
 
-- **Traçabilité** — relier les contenus à leur document et à leur édition d'origine.
-- **Transparence** — distinguer l'original des corrections, traductions et transformations numériques.
-- **Rigueur** — rendre visibles les attributions ou informations encore incertaines.
-- **IA responsable** — utiliser l'intelligence artificielle comme outil d'exploration, jamais comme source.
-- **Ouverture** — documenter et partager les méthodes, les données et les outils lorsque les droits le permettent.
+## Notre manière de travailler
 
-## Contribuer
+- **Sources avant affirmations** — chaque contenu doit pouvoir revenir à son document et à son édition.
+- **Validation humaine** — l’OCR et l’IA assistent ; ils ne valident ni un texte ni une attribution.
+- **Transparence** — original, transcription, traduction et commentaire restent clairement distincts.
+- **Ouverture responsable** — nous partageons les outils et les méthodes lorsque les droits le permettent.
 
-Développeurs, chercheurs, étudiants, traducteurs, linguistes, documentalistes et designers peuvent participer.
+## Rejoindre MouridLab
 
-Vous pouvez contribuer par le code, la transcription, la traduction, l'identification de sources, la vérification d'un passage, la documentation ou le design.
+Le projet accueille les lecteurs, chercheurs, traducteurs, linguistes, récitateurs, responsables de kourels, archivistes, designers et développeurs.
 
-1. Consultez les dépôts et les issues ouvertes.
-2. Repérez les labels `good first issue` et `help wanted`.
-3. Présentez votre idée dans Discussions si elle nécessite un échange préalable.
-4. Proposez votre changement par pull request.
+Vous pouvez commencer par :
 
-> Chaque contribution compte : une référence retrouvée ou une simple correction peut améliorer durablement le corpus.
+- explorer nos [dépôts publics](https://github.com/orgs/MouridLab/repositories) ;
+- proposer une source ou une correction dans [Xassida Search](https://github.com/MouridLab/xassida-search/issues/new) ;
+- consulter notre [guide de contribution](../CONTRIBUTING.md) ;
+- ouvrir une discussion pour présenter une initiative.
 
-## Proposer une initiative
-
-MouridLab peut accueillir des projets autour de l'OCR arabe, du wolof, de l'audio, des jeux de données, des graphes de connaissances, des API ou des applications éducatives.
-
-Présentez le besoin, les sources disponibles et le public concerné dans Discussions pour construire le projet avec la communauté.
+> Une référence retrouvée, un passage relu ou une correction documentée peut améliorer durablement le corpus.
 
 ---
 
@@ -72,8 +64,6 @@ Présentez le besoin, les sources disponibles et le public concerné dans Discus
 
 **Préserver · Comprendre · Transmettre**
 
-Explorez les dépôts · Rejoignez les discussions · Proposez une contribution
-
-<sub>Cette devise est inspirée des enseignements de Cheikh Ahmadou Bamba ; elle n'est pas présentée comme une citation littérale.</sub>
+<sub>Une communauté ouverte, exigeante sur les sources et attentive à la transmission.</sub>
 
 </div>
