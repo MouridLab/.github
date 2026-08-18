@@ -1,69 +1,69 @@
-<div align="center">
+# MouridLab
 
-<img src="../assets/mouridlab-horizontal.png" alt="MouridLab — Savoir, Agir, Servir" width="680">
+Outils open source et ressources numériques pour préserver, étudier et transmettre le patrimoine intellectuel mouride.
 
-### Le numérique au service du patrimoine intellectuel mouride
+**Organisation :** [github.com/MouridLab](https://github.com/MouridLab)
 
-Nous construisons des outils ouverts pour **préserver**, **comprendre** et **transmettre**.
+**Langues :** Français · [Wolof](README.wo.md) · [English](README.en.md)
 
-[Français](README.md) · [Wolof](README.wo.md) · [English](README.en.md)
+MouridLab structure des textes, éditions, scans, traductions et enregistrements afin que chaque ressource publiée reste reliée à une source identifiée.
 
-</div>
+## Projets
 
----
+| Dépôt                                                                     | Description                                                                              | Statut              |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------------------- |
+| [`xassida-search`](https://github.com/MouridLab/xassida-search)           | Bibliothèque multilingue, recherche sourcée, lecture, médias et validation éditoriale.   | Développement actif |
+| [`xassida-rag`](https://github.com/MouridLab/xassida-rag)                 | Service RAG local pour produire des réponses exclusivement fondées sur le corpus validé. | Expérimental        |
+| [`mouridlab.github.io`](https://github.com/MouridLab/mouridlab.github.io) | Site public de l’organisation, de ses initiatives et de sa communauté.                   | Développement actif |
 
-## Notre mission
+## Principes
 
-MouridLab est une communauté open source qui relie patrimoine, recherche et technologie. Nous transformons des documents dispersés en ressources structurées, consultables et toujours reliées à leurs sources.
+| Principe     | Exigence                                                                                   |
+| ------------ | ------------------------------------------------------------------------------------------ |
+| Sources      | Relier chaque contenu à son œuvre, son édition, son document et sa provenance.             |
+| Séparation   | Distinguer le texte original, la transcription, la traduction et le commentaire.           |
+| Validation   | Considérer l’OCR, les imports et les sorties IA comme du contenu à relire.                 |
+| Transparence | Rendre visibles les incertitudes, les corrections et le statut éditorial.                  |
+| Droits       | Partager documents, données et enregistrements uniquement lorsque leur usage est autorisé. |
 
-Notre cap est simple : rendre les œuvres plus accessibles sans sacrifier leur contexte, leur traçabilité ni la validation humaine.
+L’IA est utilisée comme outil d’exploration, jamais comme source ni comme autorité éditoriale.
 
-## Ce que nous construisons
-
-|        | Projet                                                                | Rôle                                                                        |
-| :----: | --------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| **01** | [**Xassida Search**](https://github.com/MouridLab/xassida-search)     | Bibliothèque multilingue, lecture, recherche sourcée et workflow éditorial. |
-| **02** | [**Xassida RAG**](https://github.com/MouridLab/xassida-rag)           | Moteur documentaire local qui répond à partir du corpus validé.             |
-| **03** | [**MouridLab.org**](https://github.com/MouridLab/mouridlab.github.io) | Site public de l’organisation, de ses initiatives et de sa communauté.      |
-
-## Du manuscrit à la voix
+## Workflow
 
 ```text
-SOURCES  ──▶  CORPUS VALIDÉ  ──▶  RECHERCHE
-                    │
-                    └──▶  RÉCITATIONS  ──▶  TRANSMISSION
+source → import → relecture → validation → publication → indexation
 ```
 
-Notre ambition est aussi audiovisuelle : documenter les récitateurs et les kourels, relier leurs enregistrements aux textes vérifiés, puis créer des expériences audio et vidéo synchronisées.
+Le futur workflow audiovisuel prolonge le même modèle :
 
-## Notre manière de travailler
+```text
+texte validé → récitation enregistrée → synchronisation des vers → relecture → publication
+```
 
-- **Sources avant affirmations** — chaque contenu doit pouvoir revenir à son document et à son édition.
-- **Validation humaine** — l’OCR et l’IA assistent ; ils ne valident ni un texte ni une attribution.
-- **Transparence** — original, transcription, traduction et commentaire restent clairement distincts.
-- **Ouverture responsable** — nous partageons les outils et les méthodes lorsque les droits le permettent.
+Il permettra de documenter les récitateurs et les kourels, de conserver les sessions d’enregistrement et de produire des expériences audio ou vidéo synchronisées avec les textes vérifiés.
 
-## Rejoindre MouridLab
+## Contribuer
 
-Le projet accueille les lecteurs, chercheurs, traducteurs, linguistes, récitateurs, responsables de kourels, archivistes, designers et développeurs.
+Les contributions des lecteurs, chercheurs, traducteurs, linguistes, archivistes, récitateurs, responsables de kourels, designers et développeurs sont les bienvenues.
 
-Vous pouvez commencer par :
+1. Parcourez les [dépôts publics](https://github.com/orgs/MouridLab/repositories).
+2. Lisez le [guide de contribution](../CONTRIBUTING.md) de l’organisation.
+3. Ouvrez une issue en décrivant le besoin, la source concernée et le public visé.
+4. Proposez des changements ciblés dans une pull request.
 
-- explorer nos [dépôts publics](https://github.com/orgs/MouridLab/repositories) ;
-- proposer une source ou une correction dans [Xassida Search](https://github.com/MouridLab/xassida-search/issues/new) ;
-- consulter notre [guide de contribution](../CONTRIBUTING.md) ;
-- ouvrir une discussion pour présenter une initiative.
+Pour corriger le corpus ou proposer une source, utilisez les [issues de `xassida-search`](https://github.com/MouridLab/xassida-search/issues/new).
 
-> Une référence retrouvée, un passage relu ou une correction documentée peut améliorer durablement le corpus.
+## Règles communautaires
 
----
+- [Code de conduite](../CODE_OF_CONDUCT.md)
+- [Politique de sécurité](../SECURITY.md)
+- [Support](../SUPPORT.md)
+- [Licence](../LICENSE)
 
-<div align="center">
+## Feuille de route
 
-### SAVOIR · AGIR · SERVIR
-
-**Préserver · Comprendre · Transmettre**
-
-<sub>Une communauté ouverte, exigeante sur les sources et attentive à la transmission.</sub>
-
-</div>
+- valider et publier le premier corpus de référence ;
+- améliorer la recherche en arabe, en français et en transcription ;
+- ouvrir un workflow structuré de contribution communautaire ;
+- documenter les récitateurs, les kourels, les lieux et les sessions ;
+- synchroniser les passages validés avec les contenus audio et vidéo.
